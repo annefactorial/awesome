@@ -1,0 +1,4 @@
+#!/bin/bash
+DURATION=$[($RANDOM % $1) + 1]s
+echo sleeping $DURATION seconds
+sleep $DURATION
